@@ -1,0 +1,24 @@
+function PrimitiveDataTypes() {
+    let age = 18;
+    let name = "kiran"; 
+    let setStatus = false; 
+    let userDefault = undefined; 
+    let responseValue = null; 
+    console.log("Initial Values:");
+    console.log("Age:", age);
+    console.log("Name:", name);
+    console.log("setStatus:", setStatus);
+    console.log("userDefault:", userDefault);
+    console.log("responseValue:", responseValue);
+    let oldage = age;
+    age = 25;
+    let status = setStatus;
+    setStatus = true;
+    console.log("\nUpdated Values:");
+    console.log("Old Age:", oldage);
+    console.log("Updated Age:", age);
+    console.log("Status:", status);
+    console.log("Updated setStatus:", setStatus);
+    alert("Check the console output!");
+}
+export default PrimitiveDataTypes;
